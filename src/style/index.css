@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Courgette&text=Jane%20Doe");
 
 html, body {
-	padding: 0 1vw;
-	margin: 0;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100%;
+	min-height: 100vh;
+	overflow-x: hidden;
 	background: #FAFAFA;
 	font-family: 'Helvetica Neue', arial, sans-serif;
 	font-weight: 400;
@@ -15,8 +18,10 @@ html, body {
 	box-sizing: border-box;
 }
 
-#app {
-	height: 100%;
+#app, #root {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 
