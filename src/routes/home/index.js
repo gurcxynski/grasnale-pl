@@ -10,7 +10,7 @@ const Home = () => {
 	 */
 
 	useEffect(() => {
-		if (window !== undefined && window.location.href.includes('#invite_token')) {
+		if (window !== 'undefined' && window.location.href.includes('#invite_token')) {
 			const { href } = window.location;
 			window.location.href= `${href.substring(0, href.indexOf('#'))}admin${href.substring(href.indexOf('#'))}`;
 		}
