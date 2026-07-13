@@ -17,3 +17,16 @@ collections:
       - { label: "Tags", name: "tags", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown"}
 
+  - name: "Wydarzenia"
+    label: "Wydarzenia"
+    label_singular: "Wydarzenie" # Used in the UI, ie: "New Post"
+    folder: "content/events"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - { label: "Cover", name: "cover", widget: "image", required: false}
+      - { label: "Tags", name: "tags", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown"}
+
