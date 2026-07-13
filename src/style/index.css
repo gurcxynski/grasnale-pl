@@ -3,7 +3,7 @@
 html, body {
 	margin: 0 !important;
 	padding: 0 !important;
-	width: 100%;
+	min-width: 100%;
 	min-height: 100vh;
 	overflow-x: hidden;
 	background: #FAFAFA;
@@ -19,7 +19,7 @@ html, body {
 }
 
 #app, #root {
-	width: 100%;
+	min-width: 100%;
 	display: flex;
 	flex-direction: column;
 }
