@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Courgette&text=Jane%20Doe");
 
 html, body {
-	height: 100%;
-	width: 100%;
 	padding: 0 1vw;
 	margin: 0;
 	background: #FAFAFA;
