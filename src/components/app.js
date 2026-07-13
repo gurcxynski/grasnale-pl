@@ -2,7 +2,7 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 import { Provider } from '@preact/prerender-data-provider';
 import Header from './header';
-
+import Footer from './footer';
 // Code-splitting is automated for routes
 import Home from '../routes/home';
 import Blogs from '../routes/blogs';
@@ -10,6 +10,7 @@ import Blog from '../routes/blog';
 import Contact from '../routes/contact';
 import ContactSuccess from '../routes/contact-success';
 import NotFoundPage from '../routes/notfound';
+import Events from '../routes/events';
 
 export default class App extends Component {
 
@@ -32,8 +33,10 @@ export default class App extends Component {
 						<Blog path="/blog/:name" />
 						<Contact path="/contact/" />
 						<ContactSuccess path="/contact/success" />
+						<Events path="/events/" />
 						<NotFoundPage type="404" default />
 					</Router>
+					<Footer />
 				</div>
 			</Provider>
 		);

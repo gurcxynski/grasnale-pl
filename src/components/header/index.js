@@ -10,8 +10,9 @@ const Header = () => (
 			<h1>Grasnale</h1>
 		</Link>
 		<nav>
-			<Link activeClassName={style.active} href="/blogs">Blogs</Link>
-			<Link activeClassName={style.active} href="/contact">Contact me</Link>
+			<Link activeClassName={style.active} href="/blogs">Posty</Link>
+			<Link activeClassName={style.active} href="/contact">Kontakt</Link>
+			<Link activeClassName={style.active} href="/events">Nasze Wydarzenia</Link>
 		</nav>
 	</header>
 );
